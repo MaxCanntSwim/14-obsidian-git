@@ -1,5 +1,6 @@
 Usefull youtube video: https://youtu.be/8JJ101D3knE
-setting up
+setting up. 
+List of [[Git Commands]]. 
 
 ## Set up
 ### On windows

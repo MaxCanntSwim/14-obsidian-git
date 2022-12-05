@@ -1,3 +1,5 @@
+How commit works on git with [[Git Commands]]: 
+
 each commit contains the: 
 1. ID, revision number
 2. Message

@@ -1,4 +1,4 @@
-The commands in git can be combined with [[Command line commands]]. 
+The commands in [[Git]]  can be combined with [[Command line commands]] and uses [[commit]]. 
 
 to open your configeration file
 ```bash
