@@ -20,4 +20,4 @@
 * Correctness of the post-condition
 
 * The combination of the invariant and the negation of the guard imply that the post-condition holds, thus the program is correct.
-[[Miscellaneous]] [[Induction proof]] 
+[[Miscellaneous R7L]] [[Induction proof]] 

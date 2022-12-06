@@ -1,4 +1,4 @@
-[[Miscellaneous]]
+[[Miscellaneous R7L]]
 * A -> B
 * injective: For every x in A there is exactly 1 y in B(1 to1)
 * ∀x, y ∈ A(f (x) = f (y) → x = y)

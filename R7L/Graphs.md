@@ -1,4 +1,4 @@
-[[Miscellaneous]]
+[[Miscellaneous R7L]]
 * G = (V, E)
 	* V is the set of vertices(nodes)
 	* E is the set of edges

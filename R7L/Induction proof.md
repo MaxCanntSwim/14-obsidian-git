@@ -1,4 +1,4 @@
-[[Miscellaneous]]
+[[Miscellaneous R7L]]
 * Proof base case
 	* P(0) holds
 

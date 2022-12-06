@@ -36,4 +36,4 @@
 		* Here the same example can be used as above, x = y = π.
 	* transitive if for all x, y, z ∈ A: (xRy ∧ yRz) → xRz.
 		* For instance R : (<) ⊆ ℤ x ℤ, where for instance x, y, z can be taken as x = 1, y = 2 and z = 3, if x is smaller than y and y is smaller than z than x is smaller than z
-[[Miscellaneous]] [[Graphs]] 
+[[Miscellaneous R7L]] [[Graphs]] 
