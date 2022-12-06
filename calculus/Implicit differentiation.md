@@ -1,3 +1,6 @@
+The technique of implicit differentiation allows you to find the  [[derivative]] of y with respect to x without having to solve the given equation for y. The chain rule must be used whenever the function y is being differentiated because of our assumption that y may be expressed as a function of x.
+___
+
 $$x^2+y^2=4$$
 Consider a part of the curve where $y = y(x)$ can be assumed $$x^2+y^2=4<=>x^2+(y(x))^2=4$$
 Differentiate left and right with respect to x. 

@@ -1,5 +1,5 @@
 A list of all the the trig functions and their opperations. 
-
+____
 
 ## Sinus
 normal =>           $f(x)=\sin(x)$
