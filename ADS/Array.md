@@ -1,4 +1,4 @@
-Arrays contain data in a defined size and order structure with direct acces to all elements in the array using indexes. 
+Arrays are [[Data Structures]], that contain data in a defined size and order structure with direct acces to all elements in the array using indexes. 
 ___
 
 ### Opperations
@@ -25,3 +25,4 @@ The time complexity is $O(n^2)$ and the space is $O(1)$.
 |(loops over k to compare a[k] against b[k]: uses a[k] == b[k] for primitives, calls a[k].equals(b[k]) for objects)|                            |                  |       |
 
 ### Clone
+Clone can be either a shallow copy or a deep copy, a shallow copy is a copy where the a new array is used but it keeps the references to the original objects, a deep copy also makes new objects such that it is not posible to change the deep copy using the original copy. 
