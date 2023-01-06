@@ -1,7 +1,8 @@
-Similerly to a [[Stack]] in a queue you can only interact with the ends of the [[Data Structures]]. 
+Similerly to a [[Stack]] in a queue you can only interact with the ends of the Data Structures. 
 Insertion and deletion follow first-in, first-out principle (FIFO):
 * Elements can be inserted at any time, at the back of the queue.
 * Only the element that has been the longest in the queue can be removed.
+Tags: #dataStructure #secondDegreeImplementation
 ___
 For the queue the methods for a [[SLL]] can be used
 

@@ -1,4 +1,5 @@
 Arrays are [[Data Structures]], that contain data in a defined size and order structure with direct acces to all elements in the array using indexes. 
+Tags: #dataStructure
 ___
 
 ### Opperations

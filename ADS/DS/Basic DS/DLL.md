@@ -6,6 +6,7 @@ Each node contains:
 
 Sentinels header and trailer:
 * dummy nodes to simplify insertions and deletions (avoid special cases).
+Tags: #dataStructure #LL
 ___
 
 ### Create/initialize
@@ -21,7 +22,7 @@ Create **trailer** node:
 - **next** reference: **null**.
 
 Point **header**'s next to **trailer**.
-This has a time and space [[Complexity]] of $O(1)$. 
+This has a time and space Complexity of $O(1)$. 
 
 ### Insert
 ```java
@@ -35,7 +36,7 @@ Create new node:
 Set references to new node:
 - **pred**'s **next**;
 - **succ**'s **prev**
-This has a time and space [[Complexity]] of $O(1)$. 
+This has a time and space Complexity of $O(1)$. 
 
 ### Remove
 ```java
@@ -48,7 +49,7 @@ Get predecessor and successor nodes:
 Link out old node:
 - Set pred's next as succ;
 - Set succ's prev as pred.
-This has a time and space [[Complexity]] of $O(1)$. 
+This has a time and space Complexity of $O(1)$. 
 
 ### insert/remove at head/tail
 ```java
@@ -70,4 +71,4 @@ public E removeLast ( ) {
 	else return remove(trailer.getPrev ( ));
 }
 ```
-these have a time and space [[Complexity]] of $O(1)$. 
+these have a time and space Complexity of $O(1)$. 

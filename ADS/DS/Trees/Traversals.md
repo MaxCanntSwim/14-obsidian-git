@@ -1,3 +1,4 @@
+Tags: #dataStructure #Tree #implementations 
 # Depth first
 ## Pre-order
 pre-order, visit Node **before** its children 

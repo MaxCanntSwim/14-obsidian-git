@@ -1,5 +1,6 @@
 this [[Data Structures]] is a sequence of positions, each with 1 element. Traversal in both directions.
 Elements accessed via positions, no direct access to nodes.
+Tags: #dataStructure #secondDegreeImplementation
 ___
 
 **Accessor methods**

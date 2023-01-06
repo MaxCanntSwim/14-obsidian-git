@@ -1,6 +1,8 @@
 Trees can also be [[Data Structures]], the implementation of a tree is very similar to the implementation of a [[Linked list]]. 
 
 [[Terminology]] [[Traversals]] 
+
+Tags: #dataStructure #Tree #implementations
 ___
 ## Trees
 ### Linked structure for trees

@@ -2,6 +2,7 @@
 - Each internal node has at most two children (either 1 or 2).
 - The children of a node are an ordered pair: left child, right child.
 - **Max number of nodes**: ${2}^{h+1}-1$
+Tags: #dataStructure #Tree
 ___
 
 ### Terminology

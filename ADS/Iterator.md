@@ -1,4 +1,7 @@
 Abstracts the process of scanning through a sequence, one element at a time.
+Tags: #Iterators
+___
+
 
 Java.til.Iterator 
 * **hasNext()**  returns true if there's at least one additional element in the sequence

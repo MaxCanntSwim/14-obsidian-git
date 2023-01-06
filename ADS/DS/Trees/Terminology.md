@@ -1,4 +1,5 @@
 Abstract model of a hierarchical structure.
+Tags: #dataStructure #Tree #Terms
 ___
 
 Examples:

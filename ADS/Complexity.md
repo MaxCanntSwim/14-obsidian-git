@@ -1,4 +1,5 @@
 Complexity is shown as a tightest bound for the function, in [[Big O-notation]]. 
+Tags: #definition 
 ___
 
 ## Time complexity

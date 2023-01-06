@@ -1,4 +1,4 @@
-Stack (or pile of elements) is a different variation on [[Data Structures]] where you only have access to the first element in the data structure.
+Stack (or pile of elements) is a different variation on Data Structures where you only have access to the first element in the data structure.
 We can only access/modify the top of the stack.
 ___
 
@@ -26,4 +26,4 @@ Operations:
 - top/peek: access top element, without removing.
 - size: returns the size of the stack
 - isEmpty: checkes if there are elements in the stack
-- These have a time and space [[Complexity]] of $O(1)$. 
+- These have a time and space Complexity of $O(1)$. 
