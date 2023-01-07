@@ -2,10 +2,10 @@ Arrays are [[Data Structures]], that contain data in a defined size and order st
 Tags: #dataStructure
 ___
 
-### Opperations
+# Opperations
 Inserting and removing elements with an array takes $O(n)$ time and $O(1)$ space. 
 
-### Insertion sort
+# Insertion sort
 ```
 InsertionSort(a)
 	for k from 1 to n-1 do
@@ -16,7 +16,7 @@ Implicit output: array is passed by reference, no need for explicit return.
 ![[Screenshot 2023-01-03 at 13.46.30.jpg]]
 The time complexity is $O(n^2)$ and the space is $O(1)$. 
 
-### Equality
+# Equality
 | Tests for equality                                                      | What is compared?          | Result?          | Time? |
 | ----------------------------------------------------------------------- | -------------------------- | ---------------- | ----- |
 | scores1 == scores2                                                      | array variable (reference) | false            | 0(1)  |
@@ -25,5 +25,5 @@ The time complexity is $O(n^2)$ and the space is $O(1)$.
 | java.utils.Arrays.equals (scores1, scores2)                             | array's elements           | true |0(n)|
 |(loops over k to compare a[k] against b[k]: uses a[k] == b[k] for primitives, calls a[k].equals(b[k]) for objects)|                            |                  |       |
 
-### Clone
+# Clone
 Clone can be either a shallow copy or a deep copy, a shallow copy is a copy where the a new array is used but it keeps the references to the original objects, a deep copy also makes new objects such that it is not posible to change the deep copy using the original copy. 

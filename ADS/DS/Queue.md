@@ -24,7 +24,7 @@ Opperations
 * size: returns the number of elements in the que
 * isEmpty: return true if the queue is empty, false otherwise
 
-### Deques
+# Deques
 pronounced as decks.
 This is a queue with access to the both sides of the queue. 
 A [[DLL]] can be used to implement this. 

@@ -9,7 +9,7 @@ Sentinels header and trailer:
 Tags: #dataStructure #LL
 ___
 
-### Create/initialize
+# Create/initialize
 
 Create **header** node:
 - **element**: **null**;
@@ -24,7 +24,7 @@ Create **trailer** node:
 Point **header**'s next to **trailer**.
 This has a time and space Complexity of $O(1)$. 
 
-### Insert
+# Insert
 ```java
 private void addBetween (E e, Node<E> pred, Node<E> succ)
 ```
@@ -38,7 +38,7 @@ Set references to new node:
 - **succ**'s **prev**
 This has a time and space Complexity of $O(1)$. 
 
-### Remove
+# Remove
 ```java
 private E remove (Node<E> node)
 ```
@@ -51,7 +51,7 @@ Link out old node:
 - Set succ's prev as pred.
 This has a time and space Complexity of $O(1)$. 
 
-### insert/remove at head/tail
+# insert/remove at head/tail
 ```java
 public void addFirst(E e) {
 	addBetween(e, header, header.getNext ()) ;

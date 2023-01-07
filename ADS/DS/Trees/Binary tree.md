@@ -5,7 +5,7 @@
 Tags: #dataStructure #Tree
 ___
 
-### Terminology
+# Terminology
 * **Proper binary tree**: tree in which every node has either zero or two children.
 * **In-order [[Traversals]]**: the node is visited **after** the left child and **before** the right child
 ```java

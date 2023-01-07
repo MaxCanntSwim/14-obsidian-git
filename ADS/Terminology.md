@@ -1,4 +1,5 @@
-Complexity is shown as a tightest bound for the function, in [[Big O-notation]]. 
+# Complexity
+Complexity is shown as a tightest bound for the function, in Big O-notation. 
 Tags: #definition 
 ___
 
@@ -55,3 +56,20 @@ public static boolean Method1(int[] distances) {
 }
 ```
 This algorithm has 0 recursive calls, thus the space complexity is $1$. This also means that the Big O for the space complexity is equal to $O(1)$
+
+# Big O-notation
+Big O-notation means the tightest bound for the function. 
+For example, $f(x)=3x^3+2x$
+The Big O for this function is $O(x^3)$ 
+This needs to hold for some $x=n_0$ and for all $x>=n_0$
+Tags: #definition
+
+# Divide-and-conquer
+Divide-and-conquer is an algorithmic design pattern consisting of 3 steps:
+1. Divide:  
+	    **Small** input: **base** case  
+		    If input is small (e.g. 1-2 elements), solve problem **directly**.  
+	    **Larger** input: **recurrence**  
+		    **Divide** the input into **two** or more **disjoint** subsets.
+1. **Conquer**: **Recursively** solve the subproblems associated with the **subsets**.
+2. **Combine**: Take the **solutions** of the subproblems and **merge** them into a solution to the larger problem.

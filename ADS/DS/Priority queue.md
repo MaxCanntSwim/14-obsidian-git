@@ -15,3 +15,13 @@ Priority Queue ADT
 * **size()** returns the number of entries
 * **isEmpty()** returns true if empty, false otherwise
 
+| method            | List | sorted list | [[Heap]]       | Adaptable heap | motivation                                                                              |
+| ----------------- | ---- | ----------- | -------------- | -------------- | --------------------------------------------------------------------------------------- |
+| min()             | O(n) | O(1)        | O(1)           | O(1)           | Root contains minimal key.                                                              |
+| removeMin()       | O(n) | O(1)        | O($\log_2(n)$) | O($\log_2(n)$) | Down-heap bubbling performs 0 (log n) swaps.                                            |
+| insert(k,v)       | O(1) | O(n)        | O($\log_2(n)$) | O($\log_2(n)$) | Up-heap bubbling performs 0 (logz n) swaps.                                             |
+| size()            | O(1) | O(1)        | O(1)           | O(1)           | Size is stored by an instance variable.                                                 |
+| isEmpty()         | O(1) | O(1)        | O(1)           | O(1)           | Checks size variable.                                                                   |
+| remove(e)         |      |             |                | O($\log_2(n)$) | Removes entry e from the priority queue (error if e is invalid; e.g. not in PQ anymore) |
+| replace(e, k)     |      |             |                | O($\log_2(n)$) | Replaces the key of entry e with k (error if e is invalid; e.g. not in PQ anymore)      |
+| replaceValue(e,v) |      |             |                | O(1)           | Replaces the value of entry e with v (error if e is invalid; e.g. not in PQ anymore)    |

@@ -7,21 +7,21 @@ Circularly [[Linked list]]:
 **Disadvantages**: access to elements requires traversal, cannot easily remove tail or in the middle.
 Tags: #dataStructure #LL
 ____
-### Rotate
+# Rotate
 **Rotete method**: updates the tail by following its next reference (implicit head).
 This has a time and space Complexity of $O(1)$. 
 
-### Insert at head
+# Insert at head
 1. Create new node, next reference pointiong at tail's next reference. 
 2. update tail's next to point to new node
 This has a time and space Complexity of $O(1)$. 
 
-### Insert at tail
+# Insert at tail
 1. call the insert at head mehode
 2. call the rotate method, to point to the new tail. 
 This has a time and space Complexity of $O(1)$. 
 
-### Remove head
+# Remove head
 Get explicit pointer to head. 
 	If: identical to tail, there's only one node: set tail to null.
 	else: Set tail's next to head's next.
