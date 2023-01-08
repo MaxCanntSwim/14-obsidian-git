@@ -6,9 +6,9 @@ For instance:
 	nth smallest (maximum)   rank n
 Solutions? Complexity?
 
-**Solution 1**: **Sort** collection, **pick** element at index **k - 1** in sorted sequence. Takes **O(n log n)** time.
+**Solution 1**: use [[Sorting algorithms]], **pick** element at index **k - 1** in sorted sequence. Takes **O(n log n)** time.
 
-**Solution 2**: Build **heap** with **n** elements in **0(n)** time, **remove** **k** elements. Takes **O(n + k log n)** time.
+**Solution 2**: Build [[Heap]] with **n** elements in **0(n)** time, **remove** **k** elements. Takes **O(n + k log n)** time.
 
 **Slow**, since we can b the selection problem for **k = 1, k = n, and other values of k in 0 (n) time**.
 

@@ -1,4 +1,5 @@
 **Hybrid approaches**. Sorts in **library implementations** usually combine **multiple** algorithms (e.g. **insertion** sort for **small** inputs, **improved** versions of **quick** sort or **merge** sort for **large** inputs).
+[[Insertion and selection Sorting]]
 | algorithm       | Stable | In-place | Time(worst)     | time(average)   | Time(best)        | Space   | Properties                                                                                                                                                                                     |
 | --------------- | ------ | -------- | --------------- | --------------- | ----------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Selection       | yes    | yes      | $O(n^2)$        | $O(n^2)$        | $O(n^2)$          | O(1)    | Slow. In-place. For small datasets (< 1K).                                                                                                                                                     |

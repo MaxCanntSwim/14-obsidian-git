@@ -3,14 +3,14 @@ Tags: #dataStructure
 ___
 |                              | [[Array]] | [[SLL]] | [[CLL]] | [[DLL]] |
 | ---------------------------- | --------- | ------- | ------- | ------- |
-| Access element by (by index) | O(1)      | O(n)    | O(n)    | O(n)    |
+| Access element by (by index) | **O(1)**      | O(n)    | O(n)    | O(n)    |
 | Search element               | O(n)      | O(n)    | O(n)    | O(n)    |
 | Insertion                    |           |         |         |         |
-| At head                      | O(n)      | O(1)    | O(1)    | O(1)    |
-| At tail                      | O(1)      | O(1)    | O(1)    | O(1)    |
+| At head                      | O(n)      | **O(1)**    | **O(1)**    | **O(1)**    |
+| At tail                      | **O(1)**      | **O(1)**    | **O(1)**    | **O(1)**    |
 | Deletion                     |           |         |         |         |
-| at head                      | O(n)      | O(1)    | O(1)    | O(1)    |
-| at tail                      | O(1)      | O(n)    | O(n)    | O(1)    |
+| at head                      | O(n)      | **O(1)**    | **O(1)**    | **O(1)**    |
+| at tail                      | **O(1)**      | O(n)    | O(n)    | **O(1)**    |
 | Clone/copy                   | O(n)      | O(n)    | O(n)    | O(n)    |
 This above is the Complexity of the implementations (view [[ADS/Terminology]] for definition)
 Array: fixed capacity, wastes space if overdimensioned, costs time if underdimensioned (expansion).

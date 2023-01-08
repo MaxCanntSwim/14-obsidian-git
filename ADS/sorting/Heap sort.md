@@ -1,6 +1,6 @@
 # Heap-based
 Sorting **n** elements (**non**-decreasing).
-**Heap**-based priority queue **P** (min-heap).
+[[Heap]]-based priority queue **P** (min-heap).
 
 **Phase 1**: **insertion** of all elements into **P**.
 	The **i**th insertion takes **O(log i)** time, since it performs **upheap** on the heap with **i** entries.
