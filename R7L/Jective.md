@@ -5,4 +5,4 @@
 * Surjective: for every y in B there is at least 1 x in A
 * ∀y ∈ B∃x ∈ A(f (x) = y)
 * Bijective: both injective and bijective
-![[Pasted image 20221205224011.png]]
+![[Screenshot 2023-01-08 at 15.02.42.jpg]]

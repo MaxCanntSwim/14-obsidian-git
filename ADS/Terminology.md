@@ -73,3 +73,18 @@ Divide-and-conquer is an algorithmic design pattern consisting of 3 steps:
 		    **Divide** the input into **two** or more **disjoint** subsets.
 1. **Conquer**: **Recursively** solve the subproblems associated with the **subsets**.
 2. **Combine**: Take the **solutions** of the subproblems and **merge** them into a solution to the larger problem.
+
+# Sorting
+## key type
+**Key type**: keys are used as **indices** into an array, **cannot** be arbitrary **objects**.
+
+## Stable sorting
+**Stable sorting**: **preserves** **the relative order** of any two items with the same key.
+	For any two items (ki, vi) and (kj, vj) such that Ki = Kj;
+	and (ki, vi) precedes (kj, vj), or i < j, in **S** **before** sorting, 
+	**then** (ki, vi) also precedes (kj, vj), or i < j, in **S** **after** sorting.
+
+# Decrease-and-conquer
+(prune-and-search)
+**Prune** away a **fraction** of the **n** elements. **Recursively** solve the **smaller** problem. **Find** solution for **base case** using a **brute-force** method.
+
