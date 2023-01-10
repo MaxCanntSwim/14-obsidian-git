@@ -6,7 +6,7 @@ ___
 Inserting and removing elements with an array takes $O(n)$ time and $O(1)$ space. 
 
 # Insertion sort
-```
+```java
 InsertionSort(a)
 	for k from 1 to n-1 do
 	insert a[k] at its proper location within a[0], a[1], ..., a[k-1]

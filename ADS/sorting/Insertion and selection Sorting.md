@@ -56,9 +56,41 @@ Iterate **left to right**, one index **i** at a time (where i = **1** up to i = 
 - Iterate backwards within 0, ..., i - 1:
 - If element **larger** than the element at index **i**, **shift** a position to the **right**.
 - **Insert** element at its **correct** position.
+```java
+public static void insertionSort(int[] elements) {
+	if(elements.length < 2) return;
+	for(int i = 1; i < elements.length; i++){
+		int j = i - 1;
+		int temp = elements[i];
+		while(j >= 0&&temp < elements[j]){
+			elements[j+1] = elements[j];
+			j--;
+		}
+		elements[j+1] = temp;
+	}
+}
+```
 
 ## Selection sort
 In-place selection sort:
 Iterate **left to right,** one index **i** at a time (where i = **0** up to i = **n - 2**).
 - Find index **m** of **minimum** element within **indexes** i, ...,n - 1.
 - Swap elements at **i** and **m**.
+```java
+public static void selectionSort(int[] elements) {
+	if(elements.length < 2) return;
+	for(int i = 0; i < elements.length;i++){
+		int j = i;
+		int loc = j;
+		while(j < elements.length){
+			if(elements[j] < elements[loc]) {
+				loc = j;
+			}
+			j++;
+		}
+		int temp = elements[loc];
+		elements[loc] = elements[i];
+		elements[i] = temp;
+	}
+}
+```
