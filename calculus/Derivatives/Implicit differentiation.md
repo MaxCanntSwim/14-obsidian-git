@@ -1,4 +1,4 @@
-The technique of implicit differentiation allows you to find the  [[derivative]] of y with respect to x without having to solve the given equation for y. The chain rule must be used whenever the function y is being differentiated because of our assumption that y may be expressed as a function of x.
+The technique of implicit differentiation allows you to find the  [[Derivative]] of y with respect to x without having to solve the given equation for y. The chain rule must be used whenever the function y is being differentiated because of our assumption that y may be expressed as a function of x.
 ___
 
 $$x^2+y^2=4$$
