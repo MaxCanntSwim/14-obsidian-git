@@ -1,4 +1,4 @@
-a [[Series]] of the form: 
+A [[Series]] of the form: 
 $$\sum\limits^{\infty}_{n=0}c_n(x-a)^n=c_0+c_1(x-a)+c_2(x-a)^2+...$$
 the **convergence** of this series might **depend** on **x**
 # Convergence
@@ -28,14 +28,6 @@ The **radius** of **convergenve** remains the **same**
 $$\frac{1}{1-x}=\sum\limits_{n=0}^{\infty}x^n\,\,\,\,\,\,\,\,\,(-1<x<1)$$
 $$\ln(1+x)=\sum\limits_{n=0}^{\infty}\frac{(-1)^n}{n+1}x^{n+1} \,\,\,\,\,\,\,\,\,(-1<x≤1)$$
 $$\arctan(x)=\sum\limits_{n=0}^{\infty}\frac{(-1)^n}{2n+1}x^{2n+1} \,\,\,\,\,\,\,\,\,(-1≤x≤1)$$
-# Taylor series
-## Definition
-Let *f* be *a* function for which all derivatives exist in some point a. 
-The Taylor series of *f* at *a* is given by:$$\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!} (x-a)^n$$ Here $f^{(n)}(a)$ is the n-th derivative of $f$ at $a$.
-For a=0 the series is also called the Maclaurin series of $f$.
-## Theorem
-if $f$ is equal to a powerseries near a, then$$\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!} (x-a)^n$$ on an open interval containing a. 
-If this holds, the function is called **analytic** at $a$.
 # Binomial series
 ## Theorem
 $$(1+x)^x=\sum\limits^{\infty}_{n=0}\binom{r}{n}x^n\,\,\,\,\,\,\,\,for\,\,\,\,-1<x<1$$where the binomial coefficients are given by: $$\binom{r}{0}=1,\,\,\binom{r}{1}=r,...,\binom{r}{n}=\frac{r*...*(r-n+1)}{n!}$$
