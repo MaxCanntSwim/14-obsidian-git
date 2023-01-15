@@ -1,4 +1,4 @@
-An **alternating series** is a series whose **terms** are **alternately positive and negative**. 
+An **alternating series** is a [[Series]] whose **terms** are **alternately positive and negative**. 
 If alternating series $\sum\limits_{n=1}^{\infty}{b_n}$ satisfies
 1. $|b_{n+1}|≤|b_n|$ for all n
 2. $\lim\limits_{n \to \infty}|b_n|=0$

@@ -1,3 +1,5 @@
+Series can be used to solve [[Derivative]] functions. 
+
 Let ($a_1,a_2,a_3,...$) be a [[Sequences]] of numbers.
 The infinite sum$$a_1,a_2,a_3,...=\sum\limits_{n=0}^{\infty}{a_n}$$
 is called a series. 

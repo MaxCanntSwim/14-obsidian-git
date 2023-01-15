@@ -1,6 +1,5 @@
 The terms in a series are discribed by $a_n$ where the n is the nth time the opperation has been preformed. n is a part of the natural numbers. 
 
-
 # Recursively definition
 A recursive definition is based on doing a opperation on previous terms. Example: 
 $a_{n}=a_{n-1}/2$
