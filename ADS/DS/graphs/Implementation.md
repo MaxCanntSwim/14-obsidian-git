@@ -1,4 +1,27 @@
 See [[Definitions]]
+
+# Topological sorting
+```java
+topologicalSort (Graph G = (V,E) )
+	List<Vertex> topo = new list
+	Stack<Vertex> ready = new stack
+	Map<Vertex, Integer> inCount = new map
+	
+	for Vertex v : V)
+		inCount.put (v, v. inDegree ()) if (inCount.get (v) == 0)
+		ready.push (v)
+		
+	while (!ready is not empty)
+		Vertex u = ready. pop ()
+		topo.add (u)
+		for (Edge e in u.outgoingEdges ())
+			Vertex v = u.opposite (e)
+			inCount. put (v, inCount. get (v) -1)
+			if(inCount.get (v) == 0)
+				ready.push (v)
+return topo
+```
+
 # Interface for graph
 ```java
 interface Vertex<V> {
