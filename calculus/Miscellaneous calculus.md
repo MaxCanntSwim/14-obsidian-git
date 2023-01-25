@@ -43,7 +43,7 @@ inverse=>           $f^{-1}(x)=\arctan(x)$
 		* only on the intervall $-\infty<=x<=\infty$
 derivitive =>      $f'(x)=\frac{-1}{\cos^2{x}}$
 primitive =>      $F(x)=-\ln|\cos(x)|$
-derivitive inverse => $f'^{-1}(x)=1/(1-x^2)$
+derivitive inverse => $f'^{-1}(x)=\frac{1}{(x^{2}+1)}$
 
 # Extreme values
 Let there be a number $c$ in the domain of function $f$ then $f(c)$ is 
