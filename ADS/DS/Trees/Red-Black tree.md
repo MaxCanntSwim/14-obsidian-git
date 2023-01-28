@@ -38,3 +38,7 @@ Both have **O(log n)** time complexity for **get, put and remove**, so what is t
 **AVL** trees are better **balanced**, hence:
 -   ﻿﻿**get** is **faster** for **AVL** trees
 -   ﻿﻿**put** and **remove** of a **red-black tree** is faster, because red-black trees require **less** **re-balancing**
+
+# (2,4) to red-black
+![[Screenshot 2023-01-27 at 16.11.25.jpg]]
+

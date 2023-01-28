@@ -88,3 +88,10 @@ Divide-and-conquer is an algorithmic design pattern consisting of 3 steps:
 (prune-and-search)
 **Prune** away a **fraction** of the **n** elements. **Recursively** solve the **smaller** problem. **Find** solution for **base case** using a **brute-force** method.
 
+# Miscallaneous
+### Binary recursion
+The function calls itself twice in each run.
+### Asymptotic algorithmic complexities
+The process of calculating the running time of an algorithm in mathematical units to find the program's limitations, or “run-time performance.” The goal is to determine the best case, worst case and average case time required to execute a given task.
+### Tail recursion
+A special form of recursion where the last operation of a function is a recursive call.
