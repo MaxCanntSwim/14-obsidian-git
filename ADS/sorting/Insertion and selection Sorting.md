@@ -47,7 +47,7 @@ In-place sort **does not** use an external datastructure.
 **Selection** and **insertion** sort can be implemented in-place.
 **In-place** sorting:
 	Only **O(1)** space used (in addition to the sequence being sorted).
-Only O (1) space used (in addition to the sequence being sorted).
+Only O(1) space used (in addition to the sequence being sorted).
 **A portion** of the **input** sequence itself **serves** as the **priority queue** P.
 
 ## Insertion sort

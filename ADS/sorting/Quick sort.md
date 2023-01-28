@@ -63,13 +63,16 @@ A **subsequence** of the input is represented **implicitly** by the **range** gi
 When **I** and **r** cross, division is **complete**, and the algorithm **recurs** on the two subsequences.
 **No explicit combine needed.**
 
+
+a is the start index of the range that is to be sorted
+b is the end index of the range that is to be sorted
 ```java 
 /** Sort the subarray S[a..b] inclusive. */
 private static <K> void quickSortinPlace(K[ ] S, Comparator <K> comp, int a, int b) {
 	if (a >= b) return; //subarray is trivially sorted
 	int left = a;
 	int right = b-1;
-	K pivot = Sib;
+	K pivot = S[b];
 	K temp; //temp object used for swapping
 	while (left <= right) {
 	//scan until reaching value equal or larger than pivot (or right marker) 

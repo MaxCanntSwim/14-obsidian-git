@@ -5,10 +5,10 @@ Sorting **n** elements (**non**-decreasing).
 **Phase 1**: **insertion** of all elements into **P**.
 	The **i**th insertion takes **O(log i)** time, since it performs **upheap** on the heap with **i** entries.
 	Takes O($n\log_2(n)$) time for all insertions.
-	Can be **O (n)** using **bottom-up** construction.
+	Can be **O(n)** using **bottom-up** construction.
 
 **Phase 2: removal**
-	The **j**th **removeMin** is 0 (log2(n - j+ 1)), since it **downheaps** heap of n - i + 1 entries.
+	The **j**th **removeMin** is O(log2(n - j+ 1)), since it **downheaps** heap of n - i + 1 entries.
 	Takes **O($n\log_2(n)$)** time for all **removals**.
 
 **Heap sort time complexity** O($n\log_2(n)$)

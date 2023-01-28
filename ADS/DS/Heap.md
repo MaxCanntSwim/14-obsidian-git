@@ -151,9 +151,9 @@ Java code 9.10, page 350
 * Constructor of array-based heap with keys ks and values vs.
 */
 public HeapPriorityQueue (K[] ks, V[] vs) {
-	super ();   // initialize array variable heap
+	super();   // initialize array variable heap
 	for (int j = 0; j < Math.min(ks.length, vs.length); j++) // iterate over keys and values
-		heap. add (new PQEntry<>(keys[j], values [j]));   //add all entries to the heap
+		heap.add(new PQEntry<>(keys[j], values [j]));   //add all entries to the heap
 	heapify();   // call heapify to bottom-up restore heap-order
 }
 /**
@@ -163,7 +163,7 @@ public HeapPriorityQueue (K[] ks, V[] vs) {
 **   For each node, performs down-heap bubbling to restore the heap-order property.
 **/
 protected void heapify() {
-	int startIndex = parent(size ( )-1);
+	int startIndex = parent(size()-1);
 	for (int j = startIndex; j >= 0; j--)
 		downheap (j);
 }

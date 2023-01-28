@@ -3,7 +3,6 @@ Apply **stable** bucket sort **sequentially**, using a **different** elementary 
 
 **Composite keys**: keys in a sequence S are **d-tuples** of **elementary** keys
 key = (k1, k2, ..., kd)
-
 	examples: 
 | keys       | tuple des                                    | Alphabet      | Radix(N)           |
 | ---------- | -------------------------------------------- | ------------- | ------------------ |
