@@ -1,10 +1,10 @@
-A Tree is an undirected graph G such tht:
+A Tree is an undirected graph G such that:
 - G is connected
 - G has no cycles
 A spanning tree is a spanning subgraph that is a tree
 A **spanning subgraph** of a graph **G** is a **subgraph** that contains all the **vertices** of **G** and a **subset** of the edges. 
 # minimum spanning tree(MST)
-**Given** an **undirected**, **weighted** graph **G**, we are intrested in finding a spanning tree **T** of **G** that **minimizes** the **sum**. 
+**Given** an **undirected**, **weighted** graph **G**, we are interested in finding a spanning tree **T** of **G** that **minimises** the **sum**. 
 
 # Kruskal's algorithm
 Idea:
