@@ -30,7 +30,7 @@ A **weighted graph** is a graph in which each **edge** has an associated **numer
     An edge whose end vertices coincide
 - **Degree of a vertex v** (denoted deg (V))  
     The number of incident edges of a vertex
-	- indegree / outdegree (directed)
+	- in-degree / out-degree (directed)
 - A **simple graph** is a graph **without** parallel **edges** and **self-loops**, and can be defined as a **tuple** **(V, E)**, where:
 	- **V** is a set of nodes, called vertices
 	- **E** is a collection set of pairs of vertices, called edge

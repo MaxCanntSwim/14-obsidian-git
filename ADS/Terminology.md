@@ -4,7 +4,7 @@ Tags: #definition
 ___
 
 ## Time complexity
-Time complexity is discribed in a function dependent on the imput size to predict the time the algorithm will take, for example: 
+Time complexity is described in a function dependent on the input size to predict the time the algorithm will take, for example: 
 ```java
 public static boolean Method1(int[] distances) {  
 	int smaller = 0;  
@@ -31,7 +31,7 @@ public static boolean Method1(int[] distances) {
 This results in $10n+8$, thus this is $O(n)$, since the tightest bound is $n$.
 
 ## Space complexity
-Space complexity is a discribed in a function dependent on the imput size to predict the space the algorithm will take, for example: 
+Space complexity is a described in a function dependent on the input size to predict the space the algorithm will take, for example: 
 ```java
 public static boolean Method1(int[] distances) {  
 	int smaller = 0;  
@@ -88,7 +88,7 @@ Divide-and-conquer is an algorithmic design pattern consisting of 3 steps:
 (prune-and-search)
 **Prune** away a **fraction** of the **n** elements. **Recursively** solve the **smaller** problem. **Find** solution for **base case** using a **brute-force** method.
 
-# Miscallaneous
+# Miscellaneous
 ### Binary recursion
 The function calls itself twice in each run.
 ### Asymptotic algorithmic complexities

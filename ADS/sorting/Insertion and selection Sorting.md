@@ -43,7 +43,7 @@ If **S** is an array of capacity **n** (or any linked list that **does not shrin
 	Then we need **O(n)** space for **P**.
 
 # In-place
-In-place sort **does not** use an external datastructure. 
+In-place sort **does not** use an external data structure. 
 **Selection** and **insertion** sort can be implemented in-place.
 **In-place** sorting:
 	Only **O(1)** space used (in addition to the sequence being sorted).

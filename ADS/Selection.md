@@ -16,7 +16,7 @@ Can we **achieve** **O(n)** running time **for all** values of **k**?
 
 **For instance**, finding the median, where k = n/2.
 
-# Randomized quick-select
+# Randomised quick-select
 Algorithm quickSelect(S, k)
 	**Input**: Sequence **S** of **n** elements, and an **integer** k € {1, ..., n}
 	**Output**: The **k**th smallest element of **S** 
@@ -59,7 +59,7 @@ private static int selectInPlace (int[] array, int left, int right, int i) { //i
 
 ## complexity
 **Best case:**
-**Pivot** choice always results in **equally** sized partitions (sizes of approximately **1/2 each)**. **time** complexity is **0 (n)**. **Space** is **0(log2 n)** if in-place, since we need space for the **stack frames** (given by height of recursion tree).
+**Pivot** choice always results in **equally** sized partitions (sizes of approximately **1/2 each)**. **time** complexity is **O(n)**. **Space** is **0(log2 n)** if in-place, since we need space for the **stack frames** (given by height of recursion tree).
 
 **Worst-case:**
 **Pivot** choice always results in **one** partition of size **0**, and one partition of size **n - 1.** Number of comparisons is n + (n - 1) + (n - 2)+.. + 1. **Gauss**' sum, so **time** complexity is 0 ($n^2$). **Space** is **O(n),** since we need space for the stack frames and height of recursion tree is proportional to **n**.

@@ -63,8 +63,7 @@ public static int connectedComponents(Graph<V,E> g) {
 
 # Path finding using DFS
 ```java
-public static boolean pathBetween(Graph<V,E> g,
-	Vertex<V> u1, Vertex<V> u2,
+public static boolean pathBetween(Graph<V,E> g, Vertex<V> u1, Vertex<V> u2,
 	Set<Vertex<V>> known) {
 	known.add (u1);
 	

@@ -15,7 +15,7 @@ there are ways to deal with collisions:
 - **Open** addressing: **reuse** other **free** buckets when collisions occur
 
 # Hash functions
-To calculate some interger from the information provided. 
+To calculate some integer from the information provided. 
 ## components
 ### HashCode
 This calculates an int from the key. 

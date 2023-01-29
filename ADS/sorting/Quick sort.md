@@ -35,11 +35,11 @@ Then the **height** of the quick sort tree is **O(n)**.
 The work per level i is proportional to size of largest sequence, **n - i**.
 **Worst-case** running **time** of quick sort is **O($n^2$)**. **Space** is **O(n)**.
 
-# Randomized
+# Randomised
 To guarantee that quick sort is **efficient**, partitions should be **balanced**.
 **Deterministic** choice of pivot can lead to **worst-case performance** for certain distributions of the input.
-**Randomized** quick sort
-	Introduces **randomization** when choosing the **pivot**:
+**Randomised** quick sort
+	Introduces **randomisation** when choosing the **pivot**:
 	Instead of always picking the **first, last, or any other fixed element** of S, we choose an element at **random**.
 
 **Time** complexity **analysis**

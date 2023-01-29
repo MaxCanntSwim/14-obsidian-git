@@ -57,7 +57,7 @@ interface Graph<V,E> {
 
 # Edge list
 ```java
-class EdgeList<V, E> implements Graph‹V, E> {
+class EdgeList<V, E> implements Graph<V, E> {
 	class InnerVertex<V> implements Vertex<V> {
 		private V elem;
 		private Position <InnerVertex<V>> pos;
@@ -85,7 +85,7 @@ class AdjacencyList<V, E> implements Graph<V, E> {
 	private V elem;
 	private Position <InnerVertex<V›> pos;
 	private LinkedPositionalList
-		<InnerEdge<V,E›› outgoing, incoming;
+		<InnerEdge<V,E>> outgoing, incoming;
 	}
 	
 	class InnerEdge<V,E> implements Edge<E> {
@@ -102,14 +102,13 @@ class AdjacencyList<V, E> implements Graph<V, E> {
 ```
 ![[Screenshot 2023-01-18 at 12.05.21.jpg]]
 
-# Adiacency map structure
+# Adjacency map structure
 ```java
 class AdjacencyMap<V,E> implements Graph<V, E> {
-	class InnerVertex‹V> implements Vertex‹v> {
+	class InnerVertex‹V> implements Vertex<v> {
 		private V elem;
 		private Position <InnerVertex<V>> pos;
-		private Map
-			<Vertex<V>, InnerEdge<V,E›› outgoing, incoming;
+		private Map<Vertex<V>, InnerEdge<V,E>> outgoing, incoming;
 	}
 	
 	class InnerEdge<V,E› implements Edge<E> {
@@ -119,8 +118,8 @@ class AdjacencyMap<V,E> implements Graph<V, E> {
 		private Position <InnerEdge<V,E>> pos;
 	}
 	
-	private LinkedPositionalList <InnerVertex<V›> vertices;
-	private LinkedPositionalList ‹InnerEdge<V,E>> edges;
+	private LinkedPositionalList <InnerVertex<V>> vertices;
+	private LinkedPositionalList <InnerEdge<V,E>> edges;
 	
 	//...
 }
