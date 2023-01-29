@@ -29,8 +29,9 @@ static <V,E> void breadthfirst (Graph‹V,E> g, Vertex<V> s) {
 	// vertices that we have already visited
 	Set<Vertex<V>> known = new Set ();
 	// breadth first queue
-	Queue<Position<E>> g = new Queue () ; q. enqueue (s) ;
-	known.add (s);
+	Queue<Position<E>> g = new Queue() ; 
+	q. enqueue (s) ;
+	known.add(s);
 	while (!g.isEmpty()) {
 		Vertex<V> u = q. dequeue () ;
 		visit (u);
@@ -48,12 +49,12 @@ static <V,E> void breadthfirst (Graph‹V,E> g, Vertex<V> s) {
 # Counting connected components using DFS
 ```java
 public static int connectedComponents(Graph<V,E> g) {
-	Set<Vertex<V>> known = new Set );
+	Set<Vertex<V>> known = new Set();
 	int num = 0;
 	for Vertex<V> u : g.vertices ()) {
 		if (!known.contains (u)) {
 			num++;
-			depthfirst (g, u, known);
+			depthfirst(g, u, known);
 		}
 	}
 	return num;
@@ -62,15 +63,15 @@ public static int connectedComponents(Graph<V,E> g) {
 
 # Path finding using DFS
 ```java
-public static boolean pathBetween (Graph<V,E> g,
-	Vertex<V> ul, Vertex<V> u2,
+public static boolean pathBetween(Graph<V,E> g,
+	Vertex<V> u1, Vertex<V> u2,
 	Set<Vertex<V>> known) {
-	known.add (ul);
+	known.add (u1);
 	
-	if (ul == u2) return true;
+	if (u1 == u2) return true;
 	
-	for (Edge<E> e : g.outgoingEdges (ul)) {
-		Vertex<V> v = g.opposite (ul, e) ;
+	for (Edge<E> e : g.outgoingEdges (u1)) {
+		Vertex<V> v = g.opposite (u1, e) ;
 		if (!known.contains (v)) {
 			if (pathBetween (g, v, u2, known))
 				return true;

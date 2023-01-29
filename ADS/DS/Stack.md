@@ -21,9 +21,9 @@ Applications:
 - Text editor undo: most recent change undone first.
 
 Operations:
-- push: insert element onto the stack;
-- pop: remove element at the top of the stack;
-- top/peek: access top element, without removing.
-- size: returns the size of the stack
-- isEmpty: checkes if there are elements in the stack
+- **push**: insert element onto the stack;
+- **pop**: remove element at the top of the stack;
+- **top**/**peek**: access top element, without removing.
+- **size**: returns the **size** of the stack
+- **isEmpty**: checkes if there are elements in the stack
 - These have a time and space Complexity of $O(1)$. 

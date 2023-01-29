@@ -14,7 +14,7 @@ Relationships between nodes
 - **Child** of x: node y at lower end of an edge from x (K is a child of F)
 - **Sibling** of x: any node y other than × with same parent of x (G is sibling of H)
 - **Ancestor** of x: any node y in the unique upward path from × to the root, including x (ancestors of K: A,B, F, K)
-- **Descendant** of x: any node y in a downward path from x to the leaves, including * (descendants of B: B,E, F, I,J, K)
+- **Descendant** of x: any node y in a downward path from x to the leaves, including x (descendants of B: B,E, F, I,J, K)
 - **Root**: node without parent (A)
 - **Internal nodes**: nodes with at least one child (B,C, F)
 - **External nodes (leaves)**: without children (D,E, G, H, I,J,K)
@@ -35,7 +35,7 @@ public int depth (Position<E> p) {
 public int height (Position<E> p) {
 	int h = 0;              // base case (p is leaf)
 	for (Position<E> c : children(p))
-		h = Math.max (h, 1 + height (c));
+		h = Math.max (h, 1 + height(c));
 	return h;
 }
 ```
