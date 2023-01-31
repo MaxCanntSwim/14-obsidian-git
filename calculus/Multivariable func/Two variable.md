@@ -1,3 +1,5 @@
+To integrate => [[Double intergrals]]
+
 The input: **x and y**
 The output: **z**
 Because we are now working with 3 inputs/outputs the graph has to be 3D to correctly display this function. 

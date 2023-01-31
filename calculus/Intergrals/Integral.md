@@ -1,4 +1,4 @@
-In calculus, an integral is a mathematical object that can be interpreted as an area or a generalization of area. Integrals, together with [[Derivative]], are the fundamental objects of calculus. Other words for integral include antiderivative and primitive.
+In calculus, an integral is a mathematical object that can be interpreted as an area or a generalisation of area. Integrals, together with [[Derivative]], are the fundamental objects of calculus. Other words for integral include antiderivative and primitive.
 _____
 
 The mathematical definition is:

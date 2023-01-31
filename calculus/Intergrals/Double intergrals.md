@@ -6,7 +6,7 @@ than we can make an approximation of the volume:
 $$Volume≈\sum\limits_{i=1}^{n}\sum\limits_{j=1}^{m}f(x_{i},y_{j})\Delta A$$
 # The double (Riemann) integral
 ## Definition
-The double integral of $f(x,y)$ over a region $D⊂ℝ^2$ is $$\int \int _{D}f(x,y)dA=\lim\limits_{\Delta A_{i} \to 0^{+}}\sum\limits_{i}f(x_{i}^{*},y_{j}^{*})\Delta A_{i}$$**Theorem**
+The double [[Integral]] of $f(x,y)$ over a region $D⊂ℝ^2$ is $$\int \int _{D}f(x,y)dA=\lim\limits_{\Delta A_{i} \to 0^{+}}\sum\limits_{i}f(x_{i}^{*},y_{j}^{*})\Delta A_{i}$$**Theorem**
 The Riemann integral exists for any continuous function on a well-behaved region D.
 
 # Properties

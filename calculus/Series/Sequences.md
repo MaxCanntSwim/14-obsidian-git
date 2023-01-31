@@ -1,7 +1,7 @@
-The terms in a series are discribed by $a_n$ where the n is the nth time the opperation has been preformed. n is a part of the natural numbers. 
+The terms in a series are described by $a_n$ where the n is the nth time the operation has been preformed. n is a part of the natural numbers. 
 
 # Recursively definition
-A recursive definition is based on doing a opperation on previous terms. Example: 
+A recursive definition is based on doing a operation on previous terms. Example: 
 $a_{n}=a_{n-1}/2$
 Here if n = 1 is $a_1=1$
 this will result in the following permutations: 
@@ -11,7 +11,7 @@ $a_4=\frac{1}{8}$
 $a_5=\frac{1}{16}$
 
 # Explicit formula
-Some series can be discribed by an explicit formula, such as the formula above. 
+Some series can be described by an explicit formula, such as the formula above. 
 This formula results in $a_n=(\frac{1}{2})^n$ 
 Using this formula there is no longer a need to know the previous term. 
 

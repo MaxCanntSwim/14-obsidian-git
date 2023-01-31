@@ -9,7 +9,7 @@ Define the **partial sums**:
 	$s_2=a_1+a_2$
 	$s_3=a_1+a_2+a_3$
 	$$s_n=\sum\limits^{N}_{n=1}a_n$$
-if $\lim\limits_{N \to \infty}s_N$ exists and equal to L ∈ ℝ, the series is **convergent**
+if $\lim\limits_{N \to \infty}s_N$ exists and equal to $L ∈ ℝ$, the series is **convergent**
 and we write $$\sum\limits_{n=0}^{\infty}{a_n}=L$$
 Otherwise the series is divergent. 
 

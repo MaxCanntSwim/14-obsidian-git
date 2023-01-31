@@ -1,6 +1,6 @@
 Vectors are used to model quantities with size and direction. 
 # Notation
-A vector $\vec{x}∈ℝ^n$ is gicen by a tuple of real numbers $\langle x_{1},...,x_{n} \rangle$ called the components of the vector.
+A vector $\vec{x}∈ℝ^n$ is given by a tuple of real numbers $\langle x_{1},...,x_{n} \rangle$ called the components of the vector.
 # Opperations
 ## 2D
 Suppose $\vec{x}=\langle x_{1},x_{2}\rangle$ and $\vec{y}=\langle y_{1},y_{2}\rangle$.

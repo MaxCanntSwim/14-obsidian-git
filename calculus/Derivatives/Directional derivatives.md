@@ -1,6 +1,6 @@
 Suppose we want the slope at $(x_{0},y_{0})$ in the direction of $\vec{u}=\langle a,b\rangle$, call it $D_{u}f(x_{0},y_{0})$
 # Definition
-The directional derivative $D_{u}f(x_{0},y_{0})$ of f at $(x_{0},y_{0})$ in the direction of a unit vector $\vec{u}=\langle a,b \rangle$ is defined by:$$D_{u}f(x_{0},y_{0})=\lim\limits_{h \to 0}\frac{f(x_{0}+ah,y_{0}+bh)-f(x_{0},y_{0})}{h}$$if this limit exists. 
+The directional [[Derivative]] $D_{u}f(x_{0},y_{0})$ of f at $(x_{0},y_{0})$ in the direction of a unit [[Vector]] $\vec{u}=\langle a,b \rangle$ is defined by:$$D_{u}f(x_{0},y_{0})=\lim\limits_{h \to 0}\frac{f(x_{0}+ah,y_{0}+bh)-f(x_{0},y_{0})}{h}$$if this limit exists. 
 
 **Example**: 
 Calculate $D_{u}f(1,1)$

@@ -18,12 +18,12 @@ $$c\,x^kf(x)= \sum\limits^{\infty}_{n=0}c\,a_nx^{n+k}\,\,\,\,\,\,\,\,\,\,|x|<R_1
 $$f(c\,x^k)= \sum\limits^{\infty}_{n=0}a_n\,c^n\,x^{k\,n}\,\,\,\,\,\,\,\,\,\,|c\,x^k|<R_1,k∈ℕ$$
 $$f(x-c)= \sum\limits^{\infty}_{n=0}a_n(x-c)^n\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,|x-c|<R_1$$
 $$f(x)+g(x)= \sum\limits^{\infty}_{n=0}(a_n+b_n)x^n\,\,\,\,\,\,\,\,\,|x|<min\{R_1,R_2\}$$
-## Differentiationg and intergrating
+## Differentiating and integrating
 Suppose $f(x)=c_0+c_1(x-a)+c_2(x-a)^2+...=\sum\limits^{\infty}_{n=0}c_n(x-a)^n$. 
 Then: 
 * $f'(x)=c_1+2c_2(x-a)+...=\sum\limits^{\infty}_{n=1}nc_n(x-a)^{1-n}$ 
 * $\int f(x)dx=C+c_0(x-a)+\frac{c_1}{2}(x-a)^2+...=C+\sum\limits^{\infty}_{n=0}\frac{c_n}{n+1}(x-a)^{n+1}$ 
-The **radius** of **convergenve** remains the **same**
+The **radius** of **convergence** remains the **same**
 ## Examples of functions
 $$\frac{1}{1-x}=\sum\limits_{n=0}^{\infty}x^n\,\,\,\,\,\,\,\,\,(-1<x<1)$$
 $$\ln(1+x)=\sum\limits_{n=0}^{\infty}\frac{(-1)^n}{n+1}x^{n+1} \,\,\,\,\,\,\,\,\,(-1<x≤1)$$

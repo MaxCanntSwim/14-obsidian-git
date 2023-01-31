@@ -1,4 +1,4 @@
-
+[[Double intergrals]]
 # Example
 ## cutting in the vertical direction
 $f(x,y)=15x^{2}y$

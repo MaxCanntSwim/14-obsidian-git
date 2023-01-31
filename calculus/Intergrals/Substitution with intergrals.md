@@ -1,4 +1,4 @@
-Using substitution [[Intergrals]] might be easier to compute. 
+Using substitution [[Integral]] might be easier to compute. 
 Example: 
 $$f(x)=5x\sqrt{1+x^2}$$
 $$u=1+x^2$$

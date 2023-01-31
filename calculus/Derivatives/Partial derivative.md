@@ -1,14 +1,14 @@
-The definition of a derivative of a function of two variables.
+The definition of a [[Derivative]] of a function of two variables.
 **Example**:
-p(x) = f(x,b)
+$p(x) = f(x,b)$
 $f_{x}(a,b)=p'(a)$
 $$f_{x}(a,b)=\lim\limits_{h \to 0}\frac{f(a+h,b)-f(a,b)}{h}$$
-q(y)=f(a,y)
+$q(y)=f(a,y)$
 $f_{y}(a,b)=q'(b)$
 $$f_{y}(a,b)=\lim\limits_{h \to 0}\frac{f(a,b+h)-f(a,b)}{h}$$
 
 **Theorem**:
-Suppose that f is defined on a disk D that contains the point (a,b). If the function $f_{xy}$ and $f_{yx}$ are both continuous on D, then $$f_{xy}(a,b)=f_{yx}(a,b)$$
+Suppose that f is defined on a disk D that contains the point $(a,b)$. If the function $f_{xy}$ and $f_{yx}$ are both continuous on D, then $$f_{xy}(a,b)=f_{yx}(a,b)$$
 # Tangent
 The formula for a tangent line is:$$y=f(a)+f'(a)(x-a)$$
 ## Tangent plane
@@ -20,7 +20,7 @@ Suppose f has continuous partial derivatives. The tangent plane to the surface $
 The function: $$L(x,y)=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)$$
 is called the linearisation of f at the point $(a,b)$.
 
-## Linearization in higher dimentions
+## Linearization in higher dimensions
 Let ${x}=( x_{1},x_{2},...,x_{n})$ and ${a}=(a_{1},a_{2},...,a_{n})$.
 The linearization  of the function f at the point **a** is$$L(x)=f(a)+f_{x_{1}}(x_{1}-a_{1})+...+f_{x_{n}}(a)(x_{n}-a_{n})$$ 
 # Differentiability

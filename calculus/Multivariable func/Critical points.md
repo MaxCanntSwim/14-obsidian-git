@@ -1,3 +1,6 @@
+Critical points for [[Two variable]] functions. 
+___
+
 ## Theorem
 if f has a local maximum or minimum at a point $(a,b)$ and the first order partial derivatives exist at that point, then the first order partial derivatives at that point are equal to 0. 
 in a formula: $$f_{x}(a,b)=0\,\,\,\,and\,\,\,\,f_{y}(a,b)=0$$
