@@ -19,7 +19,7 @@ $$
 \right]
 $$
 
-# Opperations
+# Operations
 1. one row is replaced by the sum of itself and a multiple of another row
 2. 2 rows are interchanged
 3. one row is multiplied by a non zero constant
