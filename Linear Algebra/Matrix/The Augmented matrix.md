@@ -25,6 +25,8 @@ $$
 3. one row is multiplied by a non zero constant
 ![[Screenshot 2023-02-21 at 15.27.49.jpg]]
 
+
+
 # Solutions
 ## One unique solution
 $$\left[
@@ -61,3 +63,4 @@ If a system is inconsistent then the row reduction algorithm will produce at lea
     0 &  &  0 &  &  0 & | &  c 
 \end{array}
 \right]$$ With $c≠0$
+

@@ -1,0 +1,1 @@
+Given a **set** of vectors $\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{p}$ in $ℝ^{n}$ . The **set** of **all** linear **combinations** of $\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{p}$ **is denoted by**:$$Span\{\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{p}\}$$and this set consists of all vectors that can be written as$$x_{1}\vec{v}_{1}+x_{2}\vec{v}_{2}+...+x_{p}\vec{v}_{p}$$

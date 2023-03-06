@@ -28,3 +28,10 @@ There are only 3 situations with linear systems:
 2. There only exists 1 solution
 3. There exist ∞ solutions
 
+# homogeneous systems
+A system $A \vec{x}=\vec{b}$ is called 
+1. **Homogeneous**            if $\vec{b}=\vec{0}$
+2. **Nonhomogeneous**     if $\vec{b} ≠\vec{0}$
+**Remark**
+1. A homogeneous system $A \vec{x}=\vec{0}$ is always consistent. 
+2. A homogeneous system has **non-trivial** solutions **if and only if** it has **at least** 1 **free** variable
