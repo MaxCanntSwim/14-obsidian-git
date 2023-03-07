@@ -1,4 +1,4 @@
-Definition:
+ Definition:
 A set of [[Vector]]s $\{\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{p}\}$ in $ℝ^{n}$ is **linearly independent** if the **homogeneous** equation$$x_{1}\vec{v}_{1}+x_{2}\vec{v}_{2}+...+x_{p}\vec{v}_{p}=\vec{0}$$only has the **trivial** solution. Otherwise the set is called **linearly dependent**.
 
 **Remark**:
