@@ -39,7 +39,7 @@ An n x n matrix A is invertible if and only if A is row equivalent to $I_{n}$.
 # The invertible Matrix Theorem
 If A is an n x n matrix, then the following statements are equivalent:
 1. A is an **invertible** matrix
-2. A is **row equivalen**t to $I_{n}$
+2. A is **row equivalent** to $I_{n}$
 3. A has **n** pivot positions
 4. The equation $A \vec{x}=\vec{0}$ has only the **trivial** solution
 5. The columns of A are **linearly independent**
@@ -48,3 +48,9 @@ If A is an n x n matrix, then the following statements are equivalent:
 8. There is an n x n matrix **C** such that $CA=I_{n}$
 9. There is an n x n matrix **D** such that $AD=I_{n}$
 10. $A^{T}$ is an **invertible** matrix
+13. The columns of A form a basis of $ℝ^{n}$
+14. $ColA=ℝ^{n}$
+15. $dimColA=n$
+16. $rank A=n$
+17. $Nul A = \{\vec{0}\}$
+18. $dim Nul A = 0$
