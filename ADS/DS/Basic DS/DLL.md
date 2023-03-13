@@ -9,7 +9,7 @@ Sentinels header and trailer:
 Tags: #dataStructure #LL
 ___
 
-# Create/initialize
+# Create/initialise
 
 Create **header** node:
 - **element**: **null**;
