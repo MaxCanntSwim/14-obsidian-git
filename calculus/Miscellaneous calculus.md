@@ -12,7 +12,7 @@ The tangent line to the graph at point $(x_1,f(x))$
 Using the tangent line formula. 
 
 $y=f(x_1)+f'(x_1)(x-x_1)$
-the interseprion ath the x-axis is $x_2$
+the interspersion ath the x-axis is $x_2$
 
 $f(x_1)+f'(x_1)(x_2-x_1)=0$
 $f'(x_1)(x_2-x_1)=f(x_1)$
