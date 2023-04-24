@@ -1,6 +1,6 @@
 Trees can also be [[Data Structures]], the implementation of a tree is very similar to the implementation of a [[Linked list]]. 
 
-[[ADS/DS/Trees/Terminology]] [[Traversals]] 
+[[1105 ADS/DS/Trees/Terminology]] [[Traversals]] 
 
 Tags: #dataStructure #Tree #implementations
 ___

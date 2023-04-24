@@ -12,7 +12,7 @@ ___
 | at head                      | O(n)      | **O(1)**    | **O(1)**    | **O(1)**    |
 | at tail                      | **O(1)**      | O(n)    | O(n)    | **O(1)**    |
 | Clone/copy                   | O(n)      | O(n)    | O(n)    | O(n)    |
-This above is the Complexity of the implementations (view [[ADS/Terminology]] for definition)
+This above is the Complexity of the implementations (view [[1105 ADS/Terminology]] for definition)
 Array: fixed capacity, wastes space if overdimensioned, costs time if underdimensioned (expansion).
 List: grows efficiently.
 
