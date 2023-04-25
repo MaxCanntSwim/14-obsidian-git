@@ -4,6 +4,14 @@ Physical layer sends bits
 - group bits and add information per group/unit
 name of the unit including additional bits: Frame
 
+# Summary: Protocols for lost frames
+Utopian simplex protocol: nope
+Stop-and-wait for error-free channel: adds confirmations but does not resend
+Stop-and-wait with ARQ 1 (no numbering): resends but cannot deal with lost acks
+Stop-and-wait with ARQ 2 (numbering): works but low throughput
+Sliding window with Go-back-N: works but unnecessary retransmission
+Sliding window with Selective Repeat: works fine
+
 # Structure
 **Header**: e.g., sender, receiver, version
 **Trailer**: error detection / correction bits
