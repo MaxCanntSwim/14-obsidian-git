@@ -2,7 +2,7 @@
 Refers to whether a number is odd or even. 
 Parity bit appended to a message such that the number of bits in the message is either even or odd. 
 
-## Example
+## Algorithm
 ### Preparation
 The sender and receiver agree on desired parity
 ### Sender
@@ -31,7 +31,7 @@ The internet uses IP and TCP,  a varies from parity words, such that instead of 
 ## Note
 Checksum is sometimes used to refer to any bits appended to the message for error detection. At other times it is used to refer specially to internet checksum. 
 
-## Example
+## Algorithm
 ### Preparation 
 Sender and receiver agree on block length **k**, and possibly an algorithm for padding if the message length is not a multiple of $k^{3}$. For parity words, they further agree on parity. 
 ### Sender
@@ -52,7 +52,7 @@ Sender and receiver agree on divisor **g**. appended bits cause the message to b
 CRCs can be extended to allow for error correction as well. 
 CRC can guarantee detection of more than two bit-flips regardless of position. 
 
-## Example
+## Algorithm
 ### Preparation
 Sender and receiver agree on so-called generator **g**, a binary number of length **k + 1** and starting with 1. 
 ### Sender
