@@ -38,4 +38,3 @@ How do we know when a frame ends and the next one starts? (it's all just bits at
 What information goes into the header?
 => Will be done with MAC-Sublayer
 
-# Terminology
