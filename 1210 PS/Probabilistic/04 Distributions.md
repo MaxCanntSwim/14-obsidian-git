@@ -3,7 +3,7 @@ A random variable X has a binomial distribution with parameters n and p if x can
 → repeat the same Bernoulli trial, n times
 → let Y be the number of successes
 → then y is a binomial RV: Y ~ $Bin(n, p)$
-Same example as in [[Discrete random variables]] with the dice: throw a fair dice 10 times, let Y be the number of fours, Y ~ $Bin(10, \frac{1}{6})$
+Same example as in [[02 Discrete random variables]] with the dice: throw a fair dice 10 times, let Y be the number of fours, Y ~ $Bin(10, \frac{1}{6})$
 
 → Can we compute P(Y=2)
 e.g. 2 successes (S)
