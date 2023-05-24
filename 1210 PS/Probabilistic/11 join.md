@@ -1,7 +1,8 @@
 # Definition
+## Joint probability mass function
 Let X and Y be two discrete RVs. 
 The **joint probability mass function** p of X and Y is the function defined by $p:ℝ^{2}→[0,1]$ $$p(a,b)=P(X=a,Y=b)~~for~~all~~a~~and~~b$$
-
+## Joint density function
 Let X and Y be two discrete RVs. 
 The **join density function** f of X and Y is the function $f:ℝ^{2}→ℝ$ such that $$P(a_{1}≤X≤b_{1},a_{2}≤Y≤b_{2})=\int\limits^{b_{2}}_{a_{2}}\int\limits^{b_{1}}_{a_{1}}f(x,y)~dx~dy$$
 
