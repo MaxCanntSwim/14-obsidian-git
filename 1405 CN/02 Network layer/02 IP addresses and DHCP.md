@@ -1,5 +1,5 @@
 Machines identified by IP address
-	2-bit (v4) or 128-bit (v6)
+	32-bit (v4) or 128-bit (v6)
 v4: written as four decimal numbers between 0 and 255 seperated by a period (about 4 billion addresses)
 v6: written as eight hex numbers between 0 and ffff separated by a colon
 

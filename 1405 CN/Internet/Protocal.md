@@ -1,4 +1,5 @@
-![[Screenshot 2023-04-25 at 10.56.05.jpg]]# Definition
+![[Screenshot 2023-04-25 at 10.56.05.jpg]]
+# Definition
 Algorithm for communication between two or more parties
 Defines rules for communication
 Provides a service

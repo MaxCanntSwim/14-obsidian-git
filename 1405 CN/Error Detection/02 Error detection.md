@@ -7,10 +7,13 @@ Parity bit appended to a message such that the number of bits in the message is 
 The sender and receiver agree on desired parity
 ### Sender
 The sender has message M. They count the number n of 1s in the message. Then they append one-bit **b** as follows: 
+
 |             | n even | n odd |
 | ----------- | ------ | ----- |
 | even parity | b = 0  | b = 1 |
-| odd parity  | b = 1  | b = 0      |
+| odd parity  | b = 1  | b = 0 |
+|            |        |      |
+
 In other words, they add a bit such that the total number of bits reflects the agreed amount. 
 ### Receiver
 Gets message M' (M'=M + b). They count the number of 1s in M'. 
