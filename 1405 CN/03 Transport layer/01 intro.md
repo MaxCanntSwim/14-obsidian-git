@@ -16,7 +16,7 @@ Are there other transport layer protocols?
 	- ﻿﻿Error detection
 	- ﻿﻿Connection establishment and termination
 	- ﻿﻿Error control
-	- ﻿﻿Flow contro
+	- ﻿﻿Flow control
 	- ﻿﻿Congestion control
 2. Other transport layer protocols
 
@@ -29,7 +29,7 @@ Internet uses IP addresses for NSAPs and ports for TSAPs
 
 ## Port
 On the transport layer: virtual space allocated by the operating system to organise network traffic
-65535 (virtual) ports numbered form 1 to 65535
+65535 (virtual) ports numbered from 1 to 65535
 Some of them are allocated to standard applications
 
 ## Primitives used for addressing
@@ -52,7 +52,7 @@ Some of them are allocated to standard applications
 ## Process servers
 **Example**
 Razebary pie, use for 4 different applications. 
-In stead of having all the applications live all the time, put them to sleep, and when a message arrives on their port, wake them up. 
+Instead of having all the applications live all the time, put them to sleep, and when a message arrives on their port, wake them up. 
 
 ## Multiplexing
 multiple transport connections over one network data stream
