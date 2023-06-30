@@ -15,7 +15,7 @@ In fact if $\{\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{k}\}$ is linearly **dependent
 
 # Linear dependence
 **Theorem**:
-If $\{\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{p}\}$ is a set of of **p** **vectors** in $ℝ^{n}$ and **p** > **n**, **then** the set is **linearly dependent**.
+If $\{\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{p}\}$ is a set of **p** **vectors** in $ℝ^{n}$ and **p** > **n**, **then** the set is **linearly dependent**.
 
 **Theorem**:
 If a set $\{\vec{v}_{1},\vec{v}_{2},...,\vec{v}_{p}\}$ in $ℝ^{n}$ **contains** the **zero vector**, then the set is **linearly dependent.**

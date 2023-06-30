@@ -15,7 +15,7 @@ A 2 x 2 matrix A is invertable if $ad-bc≠0$, then it has the inverse:$$A=
 \left[
 \begin{array}{*{3}{rC}l}
     d &  &  -b \\
-    -c &  &  b 
+    -c &  &  a 
 \end{array}
 \right]$$if $ad-bc=0$ then A is singular. 
 
