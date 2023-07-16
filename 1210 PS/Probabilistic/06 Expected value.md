@@ -1,4 +1,5 @@
 # Expectations of standard distributions
+
 | Distribution        | Expectation                                                                                               | Result              |
 | ------------------- | --------------------------------------------------------------------------------------------------------- | ------------------- |
 | Bin(n,p)            | $\sum\limits_{k=0}^{n}k\binom{n}{k}p^{k}(1-p)^{n-k}$                                                      | $np$                |

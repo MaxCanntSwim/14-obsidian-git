@@ -1,6 +1,7 @@
 # Definition
 The variance of a random variable X is defined as $$Var(X)=E[(X-E[X])^{2}]$$ The standard deviation of a random variable is defined as $$SD(X)=\sqrt{Var(X)}$$For any random variable X the variance can be computed by $$Var(X)=E[X^{2}]-(E[X])^{2}$$
 # Expectation and variance of Standard Distributions
+
 | Distribution        | Expectation                 | Variance                         |
 | ------------------- | --------------------------- | -------------------------------- |
 | Bin(n,p)            | $np$                        | $np(1-p)$                        |
