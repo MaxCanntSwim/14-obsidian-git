@@ -1,9 +1,11 @@
 - Static
 - Dynamic
+Does each party always get the same share of the medium?
+
 without Carrier-Sense Multiple Access (CSMA)
 with Carrier-Sense Multiple Access
 
-Are we first sensing if the medium is in use
+Are we first sensing if the medium is in use?
 
 # Protocols without CSMA
 - ALOHA
