@@ -14,7 +14,7 @@ Decryption: $$M=Dec(K2,C)(or:M=Enc_{k2}(C))$$
 for a key K2.
 
 ## Kerchoff's Principle
-Security should not depend on secrecy of algorithm, only on keys
+Security should not depend on the secrecy of the algorithm, only on keys
 - Enc, Dec publicly known
 
 # Algorithms
