@@ -564,3 +564,32 @@ vector = model.wv['2']  # Vector for node 2
 ```
 
 This implementation uses `Node2Vec` from the `node2vec` package and `networkx` for graph handling. The example generates a random graph and creates embeddings for each node.
+## Selection
+When using Word2Vec or Node2Vec, we will have some useless data in the readings, these include but are not limited to: 
+- and, not, to, too, for, ...
+- Names
+- adjectives
+How do we differentiate between the useful and useless word?
+![[Screenshot 2024-01-30 at 12.51.00.jpg]]
+- features that occur in row 1, but not in other rows
+- features that do not occur in row 1, but not in other rows
+### How
+- TF - term frequency - importance of word in document
+- IDF - inverse document frequency - how well word distinguishes documents$$TF.IDF_{ij}=TF_{ij}\times IDF_{i}=\frac{f_{ij}}{\max_{k}f_{kj}}\times \log_{2}(\frac{N}{n_{i}})$$
+
+![[Screenshot 2024-01-30 at 12.55.29.jpg]]
+![[Screenshot 2024-01-30 at 12.56.07.jpg]]
+![[Screenshot 2024-01-30 at 12.56.24.jpg]]
+## Shingling (Ngrams)
+make count for all substrings of length *k*
+![[Screenshot 2024-01-30 at 13.03.26.jpg]]
+![[Screenshot 2024-01-30 at 13.04.53.jpg]]
+## Hash function
+- $h(x, a, b) = ((ax+b) \mod p) \mod m$
+
+- a is a random number between 1 to p-1 inclusive. 
+- b is a random number between 0 to p-1 inclusive. 
+- p is a prime number that is much greater than m 
+- m is max possible value for hash code + 1
+
+- Changing a and b will yield independent hash functions
