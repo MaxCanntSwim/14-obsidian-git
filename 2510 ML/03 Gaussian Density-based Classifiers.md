@@ -13,3 +13,4 @@ Otherwise, just count $$\hat{y_{1}}=\frac{N_{1}}{N}$$
 How to estimate the data distribution $\hat{p}(\vec{x})$
 explicit computation: $$p(\vec{x})=p(\vec{x}|y_{1})p(y_{1})+p(\vec{x}|y_{2})p(y_{2})$$
 However, if you just need to find the largest posterior, the unconditional probability is not needed. 
+
